@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow exploring</title>
+    <style>
+        .megabox1{
+            height:150px; 
+            width: 500px;
+            border: 2px solid yellowgreen;
+            overflow:scroll;
+            overflow-x: hidden;
+            
+        }
+        .megabox2{
+            height:150px;
+            width: 500px; 
+            border: 2px solid rgb(104, 50, 205);
+            overflow: auto;
+            
+            
+        }
+        .mini{
+            width: 150px;
+            border: 2px solid rebeccapurple;
+            overflow: hidden;
+           
+        }
+        .short-text{
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="mini">
+        <p class="short-text" title="This is a short messege for everyone.you all should be concern about cyclone">This is a short messege for everyone.you all should be concern about cyclone.</p>
+    </div>
+    <h1>I am learning overflow</h1>
+    <div class="megabox1">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga quod quibusdam laborum, tempore, autem soluta quia recusandae dolor nesciunt, reprehenderit quae delectus adipisci error hic saepe dolore ullam odio eligendi illo quaerat sapiente totam ad doloremque culpa? Architecto animi cum consequatur eius minima ullam, ratione dolores optio nisi nihil placeat?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea voluptates non blanditiis maxime id, laborum numquam molestiae, quia quidem sapiente libero enim suscipit? Odio, quis hic. Sequi consequatur iure, odio temporibus quibusdam incidunt animi esse blanditiis assumenda atque, quaerat cumque recusandae natus voluptatum laudantium eligendi reprehenderit sed dolorum. Quam, unde.</p>
+    </div>
+    <div class="megabox2">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga quod quibusdam laborum, tempore, autem soluta quia recusandae dolor nesciunt, reprehenderit quae delectus adipisci error hic saepe dolore ullam odio eligendi illo quaerat sapiente totam ad doloremque culpa? Architecto animi cum consequatur eius minima ullam, ratione dolores optio nisi nihil placeat?Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, vero adipisci. Sit quos est repudiandae odit corporis, quibusdam rem cum voluptas, praesentium minus necessitatibus laudantium deleniti, molestias perspiciatis. Amet eius magnam ipsum voluptate totam consectetur voluptatibus velit maiores cumque facere veritatis quod sunt odit, quaerat deserunt, libero error ipsa Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint eligendi quaerat modi provident nostrum nisi! A ab, laudantium molestiae explicabo, ratione amet nemo nihil mollitia cupiditate magnam quam dolorem! Ea obcaecati possimus, dolore quaerat commodi inventore rerum animi nemo ipsam, quibusdam soluta placeat labore? Dolore non quia tempore corrupti qui! </p>
+    </div>
+    
+</body>
+</html>
