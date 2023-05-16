@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced animation </title>
+    <style>
+         @keyframes sliding{
+            0% { transform:scale(0.5);
+            background-color: red;
+            left: 600px;
+            top:30px;
+        color: blueviolet;}
+        50%{
+            top:20px ;
+            color: goldenrod;
+        }
+        100%{
+            top:0;
+            left: 220px;
+            color: khaki;
+        }
+        75%{
+            top:220px;
+            color: hotpink;
+        }
+        25%{
+            top: 220px;
+            color: slateblue;
+        }
+
+
+         }
+       
+        .stage{
+            width:700px;
+            height: 300px;
+            background-color: cyan;
+        }
+        .ball{
+            width: 80px;
+            height: 80px;
+            background-color: blue;
+            border-radius: 50%;
+            position: relative;
+            animation-play-state: running;
+            animation: sliding 1s ease-in-out 0.5s infinite alternate;
+        }
+       
+    </style>
+</head>
+<body>
+    <h2>Lets explore animation</h2>
+    <div class="stage">
+        <div class="ball">
+
+        </div>
+    </div>
+    
+</body>
+</html>
